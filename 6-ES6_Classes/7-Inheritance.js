@@ -6,7 +6,11 @@ class Shape {
 	move() {
 		console.log('Moving');
 	}
-};
+	
+	sleep() {
+		console.log('sleeping')
+	}
+ };
 
 
 class Circle extends Shape {
